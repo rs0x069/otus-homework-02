@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1D4ED8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="32" height="32" rx="6" fill="url(#grad1)"/>
+  
+  <!-- Первый пользователь -->
+  <circle cx="8" cy="12" r="3" fill="white"/>
+  <rect x="6" y="16" width="4" height="8" rx="2" fill="white"/>
+  
+  <!-- Второй пользователь -->
+  <circle cx="16" cy="10" r="2.5" fill="white"/>
+  <rect x="14.5" y="13" width="3" height="7" rx="1.5" fill="white"/>
+  
+  <!-- Третий пользователь -->
+  <circle cx="24" cy="14" r="2.8" fill="white"/>
+  <rect x="22" y="17.5" width="4" height="6.5" rx="2" fill="white"/>
+  
+  <!-- Линии списка -->
+  <line x1="4" y1="26" x2="28" y2="26" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="6" y1="28" x2="26" y2="28" stroke="white" stroke-width="1" stroke-linecap="round"/>
+</svg>
